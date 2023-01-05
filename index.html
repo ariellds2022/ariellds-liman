@@ -2,13 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Webpage by Liman_Ariel</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
+    <h1 id="title">Welcome</h1>
+
     <p>Hello World, we are software developers!</p>
+    <p id="description">This is the explanation of our webpage</p>
+
+    <form id="survey-form">
+      
+      <label id="name-label">Name</label>
+      <br>
+      <input type="text" name="Name" id="name" placeholder="Liman_Ariel" required>
+
+      <label id="email-label">Name</label>
+      <br>
+      <input type="email" name="Email" id="email" placeholder="qwerty@gmail.com" required>
+
+      <label id="number-label">Name</label>
+      <br>
+      <input type="number" name="Number" id="number" placeholder="123-45-678" value="3" min="1" max="5">
+
+      <select name="bun" id="dropdown">
+        <option value="sesame">Sesame</option>
+        <option value="potatoe">Potato</option>
+        <option value="pretzel">Pretzel</option>
+      </select>
+
+       <section>
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+
+      <section>
+        <span>What toppings would you like?</span>
+        <br>
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+        <label for="lettuce">Lettuce</label>
+        <input type="checkbox" name="topping" id="tomato" value="tomato">
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" name="topping" id="onion" value="onion">
+        <label for="onion">Onion</label>
+      </section>
+      <hr>
+
+      <p><label for="w3review">Review of W3Schools:</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+  <br>
+  <input type="submit" value="Submit" id="submit">
+
+
+
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
